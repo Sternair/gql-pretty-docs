@@ -1,0 +1,7 @@
+<h1>Hello, world!</h1>
+<ul>
+  <li *ngFor="let type of gqlSchema.types">
+    {{type.kind}} {{type.name}}<br>
+    {{type.fields}}
+  </li>
+</ul>
